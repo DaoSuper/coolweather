@@ -173,7 +173,9 @@ public class WeatherActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()){
             case R.id.share:
-                Toast.makeText(this,"分享功能未完成！",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this, ShareActivity.class);
+                intent.putExtra("weather_title","分享");
+                startActivity(intent);
                 break;
             case R.id.setting:
                 Intent intent1 = new Intent(this, SettingActivity.class);

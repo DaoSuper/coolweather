@@ -31,6 +31,7 @@
         <activity android:name=".AboutApplicationActivity" />
         <activity android:name=".GithubWebViewActivity" />
         <activity android:name=".AutoUpdateTimeAcitivity" />
+        <activity android:name=".ShareActivity"></activity>
     </application>
 
 </manifest>
